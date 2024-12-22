@@ -1,8 +1,8 @@
 <template>
   <header>
     <!-- <a href="" @click=""></a> -->
-    <nuxt-link :to="switchLocalePath('en')">English</nuxt-link>
-    <nuxt-link :to="switchLocalePath('ru')">Russian</nuxt-link>
+    <!-- <nuxt-link :to="switchLocalePath('en')">English</nuxt-link>
+    <nuxt-link :to="switchLocalePath('ru')">Russian</nuxt-link> -->
     <div>
       <nuxt-link to="/">{{ $t('main') }}</nuxt-link>
     </div>
